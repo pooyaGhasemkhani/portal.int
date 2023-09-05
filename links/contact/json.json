@@ -1,0 +1,146 @@
+[
+    {
+        "name": "وحید قاسم خانی",
+        "position": "مدیر عامل",
+        "number": "100",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "سعید عزیزی",
+        "position": "کارشناس امور اداری و اجرایی",
+        "number": "101",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "فاطمه صفاری",
+        "position": "تشریفات",
+        "number": "150",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محمد مهدی عالم باقری",
+        "position": "مدیر ارشد  فروش و خدمات پس از فروش",
+        "number": "200",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "نوید روحی",
+        "position": "کارشناس فروش و خدمات پس از فروش",
+        "number": "201",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "عرفان محسنی",
+        "position": "مدیر دیجیتال مارکتینگ",
+        "number": "202",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "علیرضا هاشمی",
+        "position": "کارشناس مارکتینگ",
+        "number": "204",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "مصطفی فرهنگیان",
+        "position": "برنامه نویس فرانت اند",
+        "number": "205",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محمد نور عینی",
+        "position": "کارشناس سئو",
+        "number": "206",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "علی سردشتی",
+        "position": "مدیر محصول",
+        "number": "300",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محمد مهدی توانا",
+        "position": "کارشناس تحلیل و طراحی محصول",
+        "number": "301",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "سارا طهماسیان",
+        "position": "طراح رابط و تجربه کاربری",
+        "number": "303",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "احسان تن قطاری",
+        "position": null,
+        "number": "305",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "داود خنجری",
+        "position": "مدیر اطمینان سایت",
+        "number": "400",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "امیر رحیمی نژاد",
+        "position": "مدیر توسعه نرم افزار",
+        "number": "500",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محسن احمدوند",
+        "position": "مدیر توسعه فرانت اند",
+        "number": "501",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "مهدی عطااللهی",
+        "position": "کارشناس توسعه بک اند",
+        "number": "502",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "علیرضا اکبری بیات",
+        "position": "کارشناس توسعه دهنده جاوا",
+        "number": "503",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محمد رضائی",
+        "position": "کارشناس توسعه دهنده فرانت اند",
+        "number": "505",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "حسام شاهپوری",
+        "position": "کارشناس توسعه دهنده فرانت اند",
+        "number": "506",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "پویا قاسم خانی",
+        "position": "تکنسین فرانت اند",
+        "number": "507",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محمدامین زرین فر",
+        "position": "مدیر تضمین کیفیت",
+        "number": "600",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "محسن عالم باقری",
+        "position": "مدیر فرآوری اطلاعات",
+        "number": "700",
+        "image": "images/Untitled.jpg"
+    },
+    {
+        "name": "ندا زرائی",
+        "position": "کارشناس فرآوری محتوا",
+        "number": "701",
+        "image": "images/Untitled.jpg"
+    }
+]
