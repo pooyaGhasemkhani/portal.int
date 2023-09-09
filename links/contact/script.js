@@ -18,7 +18,7 @@ function fetchData() {
         filterInput.addEventListener('input', filterData);
 
         function filterData() {
-          const filterValue = filterInput.value;
+          const filterValue = filterInput.value.trim();
           const contacts = items.querySelectorAll('.contact');
 
           contacts.forEach(contact => {
