@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  background: #f7ff00; 
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  
+  background: linear-gradient(to right, #db36a4, #f7ff00); 
+  position: relative;
+  }
+.items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  overflow-y:visible;
+
+}
+
+.image {
+  border-radius: 50%;
+  width: 20vw;
+}
+
+.item{
+  position: relative;
+}
+
+
+.content{
+  background-color: rgba(240, 248, 255, 0.425);
+  position: absolute;
+  color: brown;
+  bottom: 0;
+}
+

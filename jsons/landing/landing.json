@@ -1,0 +1,53 @@
+[
+    {
+      "image": "./images/landing/internet-access.jpg",
+      "link": "https://KerioControl.int:4081",
+      "name": "دسترسی به اینترنت"
+    },
+    {
+      "image": "./images/landing/presence-and-absence.jpg",
+      "link": "http://hozour.int/webkart/",
+      "name": "سیستم حضور و غیاب"
+    },
+    {
+      "image": "./images/landing/erp.jpg",
+      "link": "https://erp.samimgroup.com/",
+      "name": "Samim ERP"
+    },
+    {
+      "image": "./images/landing/online-meeting.jpg",
+      "link": "https://jitsi.samimgroup.com/",
+      "name": "جلسات آنلاین"
+    },
+    {
+      "image": "./images/landing/contact.jpg",
+      "link": "./pages/contact/index.html",
+      "name": "تلفن"
+    },
+    {
+      "image": "images/thumbs/06.jpg",
+      "link": "https://mail.samim.net/owa",
+      "name": "ایمیل داخلی"
+    },
+    {
+      "image": "images/thumbs/07.jpg",
+      "link": "http://webmail.samimrayaneh.com/",
+      "name": "ایمیل خارجی"
+    },
+    {
+      "image": "images/thumbs/08.jpg",
+      "link": "https://chat.samimgroup.com/#/welcome",
+      "name": "Samim Chat"
+    },
+    {
+      "image": "images/thumbs/01.jpg",
+      "link": "https://cloud.samimgroup.com/login",
+      "name": "File Sharing"
+    },
+    {
+      "image": "images/thumbs/02.jpg",
+      "link": "https://snappfood.biz/",
+      "name": "سفارش ناهار"
+    }
+  ]
+  
