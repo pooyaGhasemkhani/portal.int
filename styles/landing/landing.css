@@ -1,33 +1,55 @@
 body{
   margin: 0;
-  background: #f7ff00; 
-  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  
-  background: linear-gradient(to right, #db36a4, #f7ff00); 
+  background: #ebf7f8;
   position: relative;
+  font-family: IRANYekanX;
+  }
+  .landing-App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 .items {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
-  position: relative;
-  overflow-y:visible;
+  gap: 50px;
+}
+
+.items_card{
+  background-color: #fbebda;
+  border-radius: 20px;
 
 }
 
-.image {
-  border-radius: 50%;
-  width: 20vw;
+.items_card_image{
+  border-top-right-radius:20px ;
+  border-top-left-radius:20px ;
+}
+.items_card_title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
 }
 
-.item{
-  position: relative;
+
+
+@font-face {
+	font-family: IRANYekanX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../fonts/IRANYekanX-Bold.woff') format('woff'),   
+	url('../../fonts/IRANYekanX-Bold.woff2') format('woff2');	 
 }
 
-
-.content{
-  background-color: rgba(240, 248, 255, 0.425);
-  position: absolute;
-  color: brown;
-  bottom: 0;
+@font-face {
+	font-family: IRANYekanX;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../fonts/IRANYekanX-Regular.woff') format('woff'),   
+	url('../../fonts/IRANYekanX-Regular.woff2') format('woff2');	
 }
-

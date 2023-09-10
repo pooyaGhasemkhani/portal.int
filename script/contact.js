@@ -29,11 +29,16 @@ function processData(contact) {
     items.insertAdjacentHTML(
       'beforeend',
       '<div class="contact">'+
+      '<div class="contact_image">'+
         '<img class="image" src="' + contact[i].image + '">'+
-        '<p class="name">' + contact[i].name + '</p>'+
-        '<p class="position">' + contact[i].position + '</p>'+
-        '<p class="number">' + contact[i].number + '</p>'+
+        '</div>'+
+        '<div class="contact_content">'+
+        '<h3 class="name">' + contact[i].name + '</h3>'+
+        '<h3 class="position">' + contact[i].position + '</h3>'+
+        '<h3 class="number">' + contact[i].number + '</h3>'+
+        '</div>'+
       '</div>'
+
     );
   }
 

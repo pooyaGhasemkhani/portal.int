@@ -3,26 +3,13 @@ function processData(landing) {
   for (let i = 0; i < landing.length; i++) {
     let items = document.querySelector('.items');
     items.insertAdjacentHTML(
-      'beforeend', '<div class="item">' 
-      + '<div class="content">' + '<h2>' + landing[i].name + '</h2>' + '</div>'
-      + '<a target="_blank" href="' + landing[i].link + '">' 
-      + '<img class="image" src="' + landing[i].image + '">'  
-      + '</a>'
-      + '</div>'
+      'beforeend',  '<a style="text-decoration: none;" target="_blank" href="'+landing[i].link+'">' + '<div class="items_card">' +
+      '<img class="items_card_image" src="'+landing[i].image+'">'+
+      '<div class="items_card_title">'+'<p>'+ landing[i].name +'</p>' + '</div>'+
+      '</div>'
+
     );
-  }  console.log('دریافت شده:', landing);
+  } 
 }
 
 fetchLandingData(processData);
-
-
-
-
-
-
-
-
-
-
-
-

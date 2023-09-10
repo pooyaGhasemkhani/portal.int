@@ -7,11 +7,65 @@
 </head>
 <body>
     <link rel="stylesheet" href="./styles/landing/landing.css">
+    <link rel="stylesheet" href="./styles/landing/popup.css">
 
-     
-    <div class="items"></div>
+
+    <div class="landing-App">
+        <div class="items">
+            
+            
+            <div class="items_card" id="open-gitlab-popup">
+                <img class="items_card_image" src="./images/landing/gitlab.png">
+                <div class="items_card_title">
+                    <p>پیگیری امور داخلی <br>(Gitlab)</p>
+                </div>
+            </div>
+
+            <div id="open-snapp-popup" class="items_card"> 
+                <img class="items_card_image" src="./images/landing/snapp.png">
+                <div class="items_card_title"><p>درخواست تاکسی <br>(Snapp Car)</p>  </div>
+                </div>
+        
+        
+        </div>
+
+       
+    </div>
+
+
+
+  
+<div class="popup" id="gitlab-popup">
+    <div class="popup-content">
+      <h2>پیگیری امور داخلی (Gitlab)</h2>
+      <ul>
+
+      </ul>
+      <button id="close-gitlab-popup">X</button>
+    </div>
+  </div>
+  
+
+
+  <div class="popup" id="snapp-popup">
+    <div class="popup-content">
+        <h1>درخواست تاکسی</h1>
+      <p>جهت درخواست تاکسی سازمانی لطفا با مدیر دفتر (داخلی 101) تماس بگیرید.</p>
+      
+      <button id="close-snapp-popup">X</button>
+    </div>
+  </div>
+            
+      
+      
+
+
+
+
 
     <script src="./script/service.js"></script>
     <script src="./script/landing.js"></script>
+    <script src="./script/popup.js"></script>
+    <script src="./script/snappPopup.js"></script>
 </body>
 </html>

@@ -1,53 +1,52 @@
 [
     {
-      "image": "./images/landing/internet-access.jpg",
-      "link": "https://KerioControl.int:4081",
-      "name": "دسترسی به اینترنت"
+        "image": "./images/landing/gitlab.png",
+        "link": "https://gitlab.samimgroup.com/",
+        "name": "مدیریت وظایف <br>(Gitlab)"
     },
     {
-      "image": "./images/landing/presence-and-absence.jpg",
-      "link": "http://hozour.int/webkart/",
-      "name": "سیستم حضور و غیاب"
+        "image": "./images/landing/internet-access.png",
+        "link": "https://KerioControl.int:4081",
+        "name": "دسترسی به اینترنت <br>(KerioControl)"
     },
     {
-      "image": "./images/landing/erp.jpg",
-      "link": "https://erp.samimgroup.com/",
-      "name": "Samim ERP"
-    },
-    {
-      "image": "./images/landing/online-meeting.jpg",
-      "link": "https://jitsi.samimgroup.com/",
-      "name": "جلسات آنلاین"
-    },
-    {
-      "image": "./images/landing/contact.jpg",
+      "image": "./images/landing/contact.png",
       "link": "./pages/contact/index.html",
-      "name": "تلفن"
+      "name": "دفترچه تلفن <br>(VoIP)"
     },
     {
-      "image": "images/thumbs/06.jpg",
-      "link": "https://mail.samim.net/owa",
-      "name": "ایمیل داخلی"
-    },
-    {
-      "image": "images/thumbs/07.jpg",
-      "link": "http://webmail.samimrayaneh.com/",
-      "name": "ایمیل خارجی"
-    },
-    {
-      "image": "images/thumbs/08.jpg",
+      "image": "./images/landing/element.png",
       "link": "https://chat.samimgroup.com/#/welcome",
-      "name": "Samim Chat"
+      "name": "پیام‌رسان فوری <br>(Element)"
     },
     {
-      "image": "images/thumbs/01.jpg",
+      "image": "./images/landing/nextcloud.png",
       "link": "https://cloud.samimgroup.com/login",
-      "name": "File Sharing"
+      "name": "اشتراک‌گذاری فایل <br>(NextCloud)"
     },
     {
-      "image": "images/thumbs/02.jpg",
+      "image": "./images/landing/jitsi.png",
+      "link": "https://jitsi.samimgroup.com/",
+      "name": "جلسه آنلاین <br>(Jitsi)"
+    },
+    {
+      "image": "./images/landing/webcart.png",
+      "link": "http://hozour.int/webkart/",
+      "name": "حضور و غیاب <br>(Webcart)"
+    },
+    {
+      "image": "./images/landing/odoo.png",
+      "link": "https://erp.samimgroup.com/",
+      "name": "حقوق و دستمزد <br>(Odoo)"
+    },
+    {
+      "image": "./images/landing/kerioconnect.png",
+      "link": "https://mail.samim.net/owa",
+      "name": "ایمیل سازمانی <br>(KerioConnect)"
+    },
+    {
+      "image": "./images/landing/snapp-food.png",
       "link": "https://snappfood.biz/",
-      "name": "سفارش ناهار"
+      "name": "سفارش ناهار <br>(Snapp Food)"
     }
-  ]
-  
+]
