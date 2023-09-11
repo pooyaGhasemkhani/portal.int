@@ -1,6 +1,6 @@
 body{
     margin: 0;
-  background: #ebf7f8;
+    background: #eff3f6;
   font-family: IRANYekanX;
 }
 .contact-app{
@@ -8,72 +8,67 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 70px;    
 }
-
+    .filter {
+        background-color: #303245;
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        font-size: 18px;
+        height: 30px;
+        outline: 0;
+        padding: 4px 20px 0;
+      }
 
 .items{
+    padding: 10px 0px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-
+    flex-grow: 1;
+    min-height: 77vh;
 }
-
-.contact{
-    width: 100%;
-    border: solid 2px black;
+.card{
+    border-radius: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width: 400px;
+    }
+.content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fbebda;
-    border-radius: 20px;
+    align-items: center;
 }
-.contact_image{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: row;
+.contact-image{
+    display: flex;
+
 }
 .contact_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding: 20px;
-}
-h3{
-    padding: 0px;
-}
-input[type="text"] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    text-align: end;
+    margin: 10px 20px;
 }
 
-input[type="text"]:focus {
-    border: 2px solid #ff6600;
-    outline: none;
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px 20px;
+    border: solid 2px black;
 }
 
-input[type="submit"] {
-    background-color: #ff6600;
-    color: white;
-    padding: 14px 20px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+.position {
+    color: #6c757d;
+}
+.number{
+    color: #6c757d;
 }
 
-input[type="submit"]:hover {
-    background-color: #ff9900;
-}
+
 
 @font-face {
 	font-family: IRANYekanX;

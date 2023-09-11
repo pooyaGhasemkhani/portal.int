@@ -9,7 +9,7 @@ function processData(contact) {
 
   function filterData() {
     const filterValue = filterInput.value.trim();
-    const contacts = items.querySelectorAll('.contact');
+    const contacts = items.querySelectorAll('.card');
 
     contacts.forEach(contact => {
       const name = contact.querySelector('.name').textContent;
@@ -28,14 +28,16 @@ function processData(contact) {
   for (let i = 0; i < contact.length; i++) {
     items.insertAdjacentHTML(
       'beforeend',
-      '<div class="contact">'+
+      '<div class="card">'+
+      '<div class="content">'+
       '<div class="contact_image">'+
         '<img class="image" src="' + contact[i].image + '">'+
         '</div>'+
         '<div class="contact_content">'+
-        '<h3 class="name">' + contact[i].name + '</h3>'+
-        '<h3 class="position">' + contact[i].position + '</h3>'+
-        '<h3 class="number">' + contact[i].number + '</h3>'+
+        '<p class="name">' + contact[i].name + '</p>'+
+        '<p class="position">' + contact[i].position + '</p>'+
+        '<p class="number">' + contact[i].number + '</p>'+
+        '</div>'+
         '</div>'+
       '</div>'
 
@@ -45,3 +47,10 @@ function processData(contact) {
 }
 
 fetchContactData(processData);
+
+function over(){
+  document.getElementById("header-content-title").style.color="#15B6D2"
+}
+function out(){
+  document.getElementById("header-content-title").style.color="black"
+}

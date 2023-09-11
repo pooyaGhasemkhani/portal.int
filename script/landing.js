@@ -13,3 +13,13 @@ function processData(landing) {
 }
 
 fetchLandingData(processData);
+
+
+
+
+function over(){
+  document.getElementById("header-content-title").style.color="#15B6D2"
+}
+function out(){
+  document.getElementById("header-content-title").style.color="black"
+}

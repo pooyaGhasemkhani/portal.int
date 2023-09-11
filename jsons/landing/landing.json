@@ -2,51 +2,56 @@
     {
         "image": "./images/landing/gitlab.png",
         "link": "https://gitlab.samimgroup.com/",
-        "name": "مدیریت وظایف <br>(Gitlab)"
+        "name": "مدیریت وظایف"
+    },
+    {
+        "image": "./images/landing/handbook.png",
+        "link": "https://handbook.hyperyek.com",
+        "name": "هندبوک شرکت"
     },
     {
         "image": "./images/landing/internet-access.png",
         "link": "https://KerioControl.int:4081",
-        "name": "دسترسی به اینترنت <br>(KerioControl)"
+        "name": "دسترسی به اینترنت"
     },
     {
       "image": "./images/landing/contact.png",
       "link": "./pages/contact/index.html",
-      "name": "دفترچه تلفن <br>(VoIP)"
+      "name": "دفترچه تلفن"
     },
     {
       "image": "./images/landing/element.png",
       "link": "https://chat.samimgroup.com/#/welcome",
-      "name": "پیام‌رسان فوری <br>(Element)"
+      "name": "پیام‌رسان فوری"
     },
     {
       "image": "./images/landing/nextcloud.png",
       "link": "https://cloud.samimgroup.com/login",
-      "name": "اشتراک‌گذاری فایل <br>(NextCloud)"
+      "name": "اشتراک‌گذاری فایل"
     },
     {
       "image": "./images/landing/jitsi.png",
       "link": "https://jitsi.samimgroup.com/",
-      "name": "جلسه آنلاین <br>(Jitsi)"
+      "name": "جلسه آنلاین"
     },
     {
       "image": "./images/landing/webcart.png",
       "link": "http://hozour.int/webkart/",
-      "name": "حضور و غیاب <br>(Webcart)"
+      "name": "حضور و غیاب"
     },
     {
       "image": "./images/landing/odoo.png",
       "link": "https://erp.samimgroup.com/",
-      "name": "حقوق و دستمزد <br>(Odoo)"
+      "name": "حقوق و دستمزد"
     },
     {
       "image": "./images/landing/kerioconnect.png",
-      "link": "https://mail.samim.net/owa",
-      "name": "ایمیل سازمانی <br>(KerioConnect)"
+      "link": "https://mail.hyperyek.com/",
+      "name": "ایمیل سازمانی"
     },
     {
       "image": "./images/landing/snapp-food.png",
       "link": "https://snappfood.biz/",
-      "name": "سفارش ناهار <br>(Snapp Food)"
+      "name": "سفارش ناهار"
     }
 ]

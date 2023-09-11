@@ -7,13 +7,31 @@
 </head>
 <body>
     <link rel="stylesheet" href="../../styles/contact/contact.css">
+    <link rel="stylesheet" href="../../styles/landing/footer.css">
+    <link rel="stylesheet" href="../../styles/landing/header.css">
 
-    <div class="contact-app">
-       <div class="items">
-        <input type="text" class="filter" id="myInput" name="myInput">
-       </div>
+
+
+    <div style="display: flex; flex-direction: column; height: 100vh;">
+        <header-component></header-component>
+
+
+
+        <div class="contact-app">
+            <input type="text" class="filter" id="myInput" name="myInput">
+            <div class="items"></div>
+
+        </div>
+
+        <footer-component></footer-component>
     </div>
+
+
+
     <script src="../../script/service.js"></script>
     <script src="../../script/contact.js"></script>
+    <script src="../../script/footerComponent.js"></script>
+    <script src="../../script/contactHeaderComponent.js"></script>
+
 </body>
 </html>

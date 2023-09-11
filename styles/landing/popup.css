@@ -10,6 +10,9 @@
   }
   
   .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background: #ebf7f8;
     width: 80%;
     max-width: 400px;
@@ -19,62 +22,31 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     position: relative;
   }
+  .popup-content-p{
+    cursor:default;
+    direction: rtl;
+  }
   
-  h2 {
+  .popup-content-title{
+    margin-top: 0px;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    cursor:default;
   }
-  
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-end;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 5px 0;
-  }
-  
-  button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #000000;
+
+  #close-snapp-popup {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2898a3;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  .popup-links{
-    text-decoration: none;
-    color: black;
-    background-color: #fbebda;
-    padding: 5px;
-    border-radius: 20px;
-    
-  }
-  
-
-  #close-gitlab-popup {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-
-  #close-snapp-popup {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
+    margin-top: 20px;
+    align-self: center;
   }
