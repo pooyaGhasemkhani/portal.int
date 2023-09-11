@@ -21,8 +21,15 @@ function processData(contact) {
         contact.style.display = 'block';
       } else {
         contact.style.display = 'none';
+        if (contacts.length === 0) {
+          alert('no');
+           }
       }
     });
+     
+
+          
+
   }
 
   for (let i = 0; i < contact.length; i++) {

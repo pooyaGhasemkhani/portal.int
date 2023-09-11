@@ -11,15 +11,18 @@ body{
     padding-top: 70px;    
 }
     .filter {
-        background-color: #303245;
+        background-color: #ffffff;
+        box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
         border-radius: 12px;
         border: 0;
         box-sizing: border-box;
-        color: #eee;
+        color: #000000;
         font-size: 18px;
-        height: 30px;
+        height: 50px;
+        width: 40%;
         outline: 0;
         padding: 4px 20px 0;
+        text-align:right ;
       }
 
 .items{
