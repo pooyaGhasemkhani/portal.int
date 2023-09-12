@@ -36,6 +36,7 @@
   }
 
   #close-snapp-popup {
+    font-family: IRANYekanX;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -49,4 +50,21 @@
     cursor: pointer;
     margin-top: 20px;
     align-self: center;
+  }
+
+
+  @font-face {
+    font-family: IRANYekanX;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/IRANYekanX-Bold.woff') format('woff'),   
+    url('../../fonts/IRANYekanX-Bold.woff2') format('woff2');	 
+  }
+  
+  @font-face {
+    font-family: IRANYekanX;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/IRANYekanX-Regular.woff') format('woff'),   
+    url('../../fonts/IRANYekanX-Regular.woff2') format('woff2');	
   }

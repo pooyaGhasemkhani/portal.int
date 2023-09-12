@@ -16,19 +16,15 @@ body{
     justify-content: center;
   }
 .items {
-  align-self: center;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
   gap: 50px;
   width: auto;
+  direction: rtl;
 }
 
 .items_card{
-  background-color: #2898a3;
+  background-color: #19becc;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -99,3 +95,4 @@ body{
   }
 
 }
+

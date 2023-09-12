@@ -4,6 +4,12 @@ function processData(contact) {
 
   const items = document.querySelector('.items');
   const filterInput = document.querySelector('.filter');
+  filterInput.focus()
+
+  function filter(){
+    filterInput.value = ""
+  }
+  filter()
 
   filterInput.addEventListener('input', filterData);
 
@@ -15,21 +21,15 @@ function processData(contact) {
       const name = contact.querySelector('.name').textContent;
       const number = contact.querySelector('.number').textContent;
       const position = contact.querySelector('.position').textContent;
+      const email = contact.querySelector('.email').textContent;
 
 
-      if (name.includes(filterValue) || number.includes(filterValue) || position.includes(filterValue)) {
+      if (name.includes(filterValue) || number.includes(filterValue) || position.includes(filterValue) || email.includes(filterValue)) {
         contact.style.display = 'block';
       } else {
         contact.style.display = 'none';
-        if (contacts.length === 0) {
-          alert('no');
-           }
       }
     });
-     
-
-          
-
   }
 
   for (let i = 0; i < contact.length; i++) {
@@ -43,7 +43,8 @@ function processData(contact) {
         '<div class="contact_content">'+
         '<p class="name">' + contact[i].name + '</p>'+
         '<p class="position">' + contact[i].position + '</p>'+
-        '<p class="number">' + contact[i].number + '</p>'+
+        '<p class="number">' + contact[i].number + ' <i class="fa-solid fa-phone-volume fa-rotate-270"></i></p>'+
+        '<a class="email" href="mailto:'+ contact[i].email +'">'+ contact[i].email +' <i class="fa-solid fa-envelope"></i></a>'+
         '</div>'+
         '</div>'+
       '</div>'
@@ -52,6 +53,8 @@ function processData(contact) {
   }
 
 }
+
+
 
 fetchContactData(processData);
 

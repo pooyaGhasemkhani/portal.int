@@ -1,13 +1,13 @@
 [
     {
+    "image": "./images/landing/handbook.png",
+    "link": "https://handbook.hyperyek.com",
+    "name": "هندبوک شرکت"
+    },
+    {
         "image": "./images/landing/gitlab.png",
         "link": "https://gitlab.samimgroup.com/",
         "name": "مدیریت وظایف"
-    },
-    {
-        "image": "./images/landing/handbook.png",
-        "link": "https://handbook.hyperyek.com",
-        "name": "هندبوک شرکت"
     },
     {
         "image": "./images/landing/internet-access.png",

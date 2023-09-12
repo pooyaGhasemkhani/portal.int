@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #eff3f6;
+    background: #ebf7f8;
   font-family: IRANYekanX;
 }
 .contact-app{
@@ -11,25 +11,29 @@ body{
     padding-top: 70px;    
 }
     .filter {
-        background-color: #ffffff;
-        box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
-        border-radius: 12px;
+        font-family: IRANYekanX;
+        background-color: white;
+        border-radius: 10px;
         border: 0;
         box-sizing: border-box;
-        color: #000000;
-        font-size: 18px;
-        height: 50px;
+        color: black;
+        font-size: 15px;
+        font-weight: normal;
+        height: 40px;
         width: 40%;
         outline: 0;
-        padding: 4px 20px 0;
-        text-align:right ;
+        padding: 4px 20px ;
+        text-align: right;
+        border: 1px solid gray;
+        min-width: 350px;
+        margin: 10px 0px;
       }
 
 .items{
     padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
@@ -49,6 +53,7 @@ body{
 }
 .contact-image{
     display: flex;
+    position: relative;
 
 }
 .contact_content{
@@ -57,19 +62,41 @@ body{
 }
 
 .image{
-    height: 150px;
-    width: 150px;
+    display: block;
+    height: auto;
+    width: 120px;
     border-radius: 50%;
-    margin: 10px 20px;
-    border: solid 2px black;
+    margin: 10px 3px;
+    /* border: solid 2px black; */
 }
 
 .position {
     color: #6c757d;
+    font-size: 12px;
+}
+.name{
+    color: #19becc;
+    font-weight: bold;
+    margin: 0px;
 }
 .number{
     color: #6c757d;
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: bold;
+    height: 8px;
 }
+.email{
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.fa-solid{
+    color: #19becc;
+    display: block;
+}
+
 
 
 
@@ -88,3 +115,20 @@ body{
 	src: url('../../fonts/IRANYekanX-Regular.woff') format('woff'),   
 	url('../../fonts/IRANYekanX-Regular.woff2') format('woff2');	
 }
+
+@media only screen and (max-width: 400px){
+    .image {
+        width: 80px;
+        margin: 0px 3px;
+    }
+    .card{
+        width: 340px;
+    }
+    .email{
+        font-size: 12px;
+    }
+    .name{
+        font-size: 13px;
+    }
+  
+  }

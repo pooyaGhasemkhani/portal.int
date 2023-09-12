@@ -3,144 +3,168 @@
         "name": "وحید قاسم خانی",
         "position": "مدیر عامل",
         "number": "100",
-        "image": "../../images/contact/ghasem khani.jpg"
+        "image": "../../images/contact/ghasemkhani.jpg",
+        "email": "vahid.ghasemkhani@hyperyek.com"
     },
     {
         "name": "ساحل ازقندی",
-        "position": "کارشناس امور اداری و اجرایی",
+        "position": "مسئول دفتر",
         "number": "101",
-        "image": "../../images/contact/azghandi.jpg"
+        "image": "../../images/contact/azghandi.jpg",
+        "email": "sahel.azghandi@hyperyek.com"
     },
     {
         "name": "فاطمه صفاری",
         "position": "تشریفات",
         "number": "150",
-        "image": "../../images/contact/fsaffari.jpg"
+        "image": "../../images/contact/fsaffari.jpg",
+        "email": "fatemeh.saffari@hyperyek.com"
     },
     {
         "name": "محمد مهدی عالم باقری",
-        "position": "مدیر ارشد  فروش و خدمات پس از فروش",
+        "position": "مدیر فروش و خدمات پس از فروش",
         "number": "200",
-        "image": "../../images/contact/alam baghery.jpg"
+        "image": "../../images/contact/alam baghery.jpg",
+        "email": "mahdi.alembagheri@hyperyek.com"
     },
     {
         "name": "نوید روحی",
         "position": "کارشناس فروش و خدمات پس از فروش",
         "number": "201",
-        "image": "../../images/contact/navid rouhi.jpg"
+        "image": "../../images/contact/navid rouhi.jpg",
+        "email": "navid.rouhi@hyperyek.com"
     },
     {
         "name": "عرفان محسنی",
         "position": "مدیر دیجیتال مارکتینگ",
         "number": "202",
-        "image": "../../images/contact/mohseni.jpg"
+        "image": "../../images/contact/mohseni.jpg",
+        "email": "erfan.mohseni@hyperyek.com"
     },
     {
         "name": "علیرضا هاشمی",
-        "position": "کارشناس مارکتینگ",
+        "position": "کاردان دیجیتال مارکتینگ",
         "number": "204",
-        "image": "../../images/contact/hashemi.jpg"
+        "image": "../../images/contact/hashemi.jpg",
+        "email": "alireza.hashemi@hyperyek.com"
     },
     {
         "name": "مصطفی فرهنگیان",
-        "position": "برنامه نویس فرانت اند",
+        "position": "کارشناس توسعه وردپرس",
         "number": "205",
-        "image": "../../images/contact/farhangian.jpg"
+        "image": "../../images/contact/farhangian.jpg",
+        "email": "mostafa.farhangian@hyperyek.com"
     },
     {
         "name": "محمد نور عینی",
         "position": "کارشناس سئو",
         "number": "206",
-        "image": "../../images/contact/noraini.jpg"
+        "image": "../../images/contact/noraini.jpg",
+        "email": "mohammad.noraini@hyperyek.com"
     },
     {
         "name": "علی سردشتی",
         "position": "مدیر محصول",
         "number": "300",
-        "image": "../../images/contact/sardashti.jpg"
+        "image": "../../images/contact/sardashti.jpg",
+        "email": "ali.sardashti@hyperyek.com"
     },
     {
         "name": "محمد مهدی توانا",
         "position": "کارشناس تحلیل و طراحی محصول",
         "number": "301",
-        "image": "../../images/contact/mohamad mahdi tavana.jpg"
+        "image": "../../images/contact/mohamad mahdi tavana.jpg",
+        "email": "mahdi.tavana@hyperyek.com"
     },
     {
         "name": "سارا طهماسیان",
         "position": "طراح رابط و تجربه کاربری",
         "number": "303",
-        "image": "../../images/contact/Sara Tahmasiyan.jpg"
+        "image": "../../images/contact/Sara Tahmasiyan.jpg",
+        "email": "sara.tahmasian@hyperyek.com"
     },
     {
         "name": "احسان تن قطاری",
-        "position": null,
+        "position": "تحلیلگر داده",
         "number": "305",
-        "image": "../../images/contact/tanghatary.jpg"
+        "image": "../../images/contact/tanghatary.jpg",
+        "email": "ehsan.tanghatari@hyperyek.com"
     },
     {
         "name": "داود خنجری",
-        "position": "مدیر اطمینان سایت",
+        "position": "مدیر فناوری اطلاعات",
         "number": "400",
-        "image": "../../images/contact/Khanjari.jpg"
+        "image": "../../images/contact/Khanjari.jpg",
+        "email": "davood.khanjari@hyperyek.com"
     },
     {
         "name": "امیر رحیمی نژاد",
-        "position": "مدیر توسعه نرم افزار",
+        "position": "مدیر توسعه نرم‌افزار",
         "number": "500",
-        "image": "../../images/contact/amir rahiminejad.jpg"
+        "image": "../../images/contact/amir rahiminejad.jpg",
+        "email": "amir.rahiminejhad@hyperyek.com"
     },
     {
         "name": "محسن احمدوند",
-        "position": "مدیر توسعه فرانت اند",
+        "position": "مدیر توسعه فرانت‌اند",
         "number": "501",
-        "image": "../../images/contact/mohsen ahmadvand.jpg"
+        "image": "../../images/contact/mohsen ahmadvand.jpg",
+        "email": "mohsen.ahmadvand@hyperyek.com"
     },
     {
         "name": "مهدی عطااللهی",
-        "position": "کارشناس توسعه بک اند",
+        "position": "کارشناس توسعه بک‌اند",
         "number": "502",
-        "image": "../../images/contact/ataolahi.jpg"
+        "image": "../../images/contact/ataolahi.jpg",
+        "email": "mahdi.ataollahi@hyperyek.com"
     },
     {
         "name": "علیرضا اکبری بیات",
-        "position": "کارشناس توسعه دهنده جاوا",
+        "position": "کارشناس توسعه بک‌اند",
         "number": "503",
-        "image": "../../images/contact/akbaribayat.jpg"
+        "image": "../../images/contact/akbaribayat.jpg",
+        "email": "alireza.bayat@hyperyek.com"
     },
     {
         "name": "محمد رضائی",
-        "position": "کارشناس توسعه دهنده فرانت اند",
+        "position": "کارشناس توسعه فرانت‌اند",
         "number": "505",
-        "image": "../../images/contact/mrezaei.jpg"
+        "image": "../../images/contact/mrezaei.jpg",
+        "email": "mohammad.rezaei@hyperyek.com"
     },
     {
         "name": "حسام شاهپوری",
-        "position": "کارشناس توسعه دهنده فرانت اند",
+        "position": "کارشناس توسعه فرانت‌اند",
         "number": "506",
-        "image": "../../images/contact/shahpouri.jpg"
+        "image": "../../images/contact/shahpouri.jpg",
+        "email": "hesam.shahpouri@hyperyek.com"
     },
     {
         "name": "پویا قاسم خانی",
-        "position": "تکنسین فرانت اند",
+        "position": "کاردان توسعه فرانت‌اند",
         "number": "507",
-        "image": "../../images/contact/pooya ghasemkhani.jpg"
+        "image": "../../images/contact/pooya ghasemkhani.jpg",
+        "email": "pooya.ghasemkhani@hyperyek.com"
     },
     {
         "name": "محمدامین زرین فر",
         "position": "مدیر تضمین کیفیت",
         "number": "600",
-        "image": "../../images/contact/zarinfar.jpg"
+        "image": "../../images/contact/zarinfar.jpg",
+        "email": "mohammad.zarinfar@hyperyek.com"
     },
     {
         "name": "محسن عالم باقری",
-        "position": "مدیر فرآوری اطلاعات",
+        "position": "مدیر فرآوری اطلاعات کالاها",
         "number": "700",
-        "image": "../../images/contact/mbagheri.jpg"
+        "image": "../../images/contact/mbagheri.jpg",
+        "email": "mohsen.alembagheri@hyperyek.com"
     },
     {
         "name": "ندا زرائی",
-        "position": "کارشناس فرآوری محتوا",
+        "position": "کارشناس فرآوری اطلاعات کالاها",
         "number": "701",
-        "image": "../../images/contact/zeraei.jpg"
+        "image": "../../images/contact/zeraei.jpg",
+        "email": "neda.zaraei@hyperyek.com"
     }
 ]
