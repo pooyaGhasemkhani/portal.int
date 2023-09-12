@@ -29,6 +29,7 @@
   
   .popup-content-title{
     margin-top: 0px;
+    align-self: flex-start;
     font-size: 20px;
     margin-bottom: 20px;
     font-weight:bold;

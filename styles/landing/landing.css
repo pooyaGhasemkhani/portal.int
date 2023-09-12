@@ -35,18 +35,22 @@ body{
 }
 .items_card_title{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
   color: white;
   font-weight: bold;
 }
-
-
-
-
-
-
-
+.items_card_name{
+  text-align: center;
+}
+.fon-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid{
+  padding: 0px 20px;
+}
 
 
 

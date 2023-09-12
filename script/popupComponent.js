@@ -4,7 +4,8 @@ class SnappCard extends HTMLElement {
             <div onclick="openSnappPopup()" class="items_card" id="open-snapp-popup">
                 <img class="items_card_image" src="./images/landing/snapp.png">
                 <div class="items_card_title">
-                    <p>درخواست تاکسی</p>
+                <div class="fon-icons"><i class='fa-solid fa-circle-info'></i></div>
+                    <div class="items_card_name"><p>درخواست تاکسی</p></div>
                 </div>
             </div>
             <div class="popup" id="snapp-popup">

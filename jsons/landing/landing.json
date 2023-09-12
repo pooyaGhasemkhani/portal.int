@@ -2,56 +2,67 @@
     {
     "image": "./images/landing/handbook.png",
     "link": "https://handbook.hyperyek.com",
-    "name": "هندبوک شرکت"
+    "name": "هندبوک شرکت",
+    "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
         "image": "./images/landing/gitlab.png",
         "link": "https://gitlab.samimgroup.com/",
-        "name": "مدیریت وظایف"
+        "name": "مدیریت وظایف",
+        "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
         "image": "./images/landing/internet-access.png",
         "link": "https://KerioControl.int:4081",
-        "name": "دسترسی به اینترنت"
+        "name": "دسترسی به اینترنت",
+        "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/contact.png",
       "link": "./pages/contact/index.html",
-      "name": "دفترچه تلفن"
+      "name": "دفترچه تلفن",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/element.png",
       "link": "https://chat.samimgroup.com/#/welcome",
-      "name": "پیام‌رسان فوری"
+      "name": "پیام‌رسان فوری",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i> <i class='fa-solid fa-download'></i>"
     },
     {
       "image": "./images/landing/nextcloud.png",
       "link": "https://cloud.samimgroup.com/login",
-      "name": "اشتراک‌گذاری فایل"
+      "name": "اشتراک‌گذاری فایل",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/jitsi.png",
       "link": "https://jitsi.samimgroup.com/",
-      "name": "جلسه آنلاین"
+      "name": "جلسه آنلاین",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/webcart.png",
       "link": "http://hozour.int/webkart/",
-      "name": "حضور و غیاب"
+      "name": "حضور و غیاب",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/odoo.png",
       "link": "https://erp.samimgroup.com/",
-      "name": "حقوق و دستمزد"
+      "name": "حقوق و دستمزد",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/kerioconnect.png",
       "link": "https://mail.hyperyek.com/",
-      "name": "ایمیل سازمانی"
+      "name": "ایمیل سازمانی",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     },
     {
       "image": "./images/landing/snapp-food.png",
       "link": "https://snappfood.biz/",
-      "name": "سفارش ناهار"
+      "name": "سفارش ناهار",
+      "icons": "‌<i class='fa-solid fa-circle-info'></i>"
     }
 ]
