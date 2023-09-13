@@ -2,7 +2,7 @@ class footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer class="footer">
-        <p class="footer-title">Copyright © 2023 <a style="text-decoration: none; color: white" target="_blank" href="./index.html">Hyperyek</a> Co</p>
+        <p class="footer-title">Copyright © 2023 <a style="text-decoration: none; color: white" target="_blank" href="https://hyperyek.com/">Hyperyek</a> Co</p>
     </footer>
 
         `;
