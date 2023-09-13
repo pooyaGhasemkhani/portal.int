@@ -13,24 +13,53 @@ function processData(contact) {
 
   filterInput.addEventListener('input', filterData);
 
+  let searchResultDisplay = false; 
+
   function filterData() {
     const filterValue = filterInput.value.trim();
     const contacts = items.querySelectorAll('.card');
-
+    let noneCount = 0;
+  
     contacts.forEach(contact => {
       const name = contact.querySelector('.name').textContent;
       const number = contact.querySelector('.number').textContent;
       const position = contact.querySelector('.position').textContent;
       const email = contact.querySelector('.email').textContent;
-
-
+  
       if (name.includes(filterValue) || number.includes(filterValue) || position.includes(filterValue) || email.includes(filterValue)) {
         contact.style.display = 'block';
       } else {
         contact.style.display = 'none';
+        noneCount++;
       }
     });
+  
+    if (noneCount === contacts.length) {
+      if (!searchResultDisplay) { 
+        items.insertAdjacentHTML(
+          'beforeend', `
+          <div class="search-result">
+          <div class="search-result-content">
+          <p>همکاری با مشخصات جستجو شده یافت نشد</p>
+          </div>
+          </div>
+          `
+        );
+        searchResultDisplay = true; 
+      } else {
+        const searchResult = items.querySelector('.search-result');
+        searchResult.style.display = 'flex'; 
+      }
+    } else {
+      if (searchResultDisplay) {
+        const searchResult = items.querySelector('.search-result');
+        searchResult.style.display = 'none'; 
+      }
+    }
   }
+  
+  
+
 
   for (let i = 0; i < contact.length; i++) {
     items.insertAdjacentHTML(
@@ -64,3 +93,7 @@ function over(){
 function out(){
   document.getElementById("header-content-title").style.color="black"
 }
+
+
+
+

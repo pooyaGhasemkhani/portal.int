@@ -98,6 +98,23 @@ body{
     display: block;
 }
 
+.search-result{
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width: 400px;
+    height: 150px;
+  }
+  .search-result-content {
+    display: flex;
+    align-items: center;
+    font-family: IRANYekanX;
+  }
+  
+
+
 
 
 
@@ -130,6 +147,10 @@ body{
     }
     .name{
         font-size: 13px;
+    }
+    .search-result{
+        display: flex;
+        width: 330px;
     }
   
   }
