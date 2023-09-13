@@ -4,7 +4,7 @@ class SnappCard extends HTMLElement {
             <div onclick="openSnappPopup()" class="items_card" id="open-snapp-popup">
                 <img class="items_card_image" src="./images/landing/snapp.png">
                 <div class="items_card_title">
-                <div class="fon-icons"><i class='fa-solid fa-circle-info'></i></div>
+                <div class="fon-icons"><a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/taxi' class='fa-solid fa-circle-info'></a></div>
                     <div class="items_card_name"><p>درخواست تاکسی</p></div>
                 </div>
             </div>

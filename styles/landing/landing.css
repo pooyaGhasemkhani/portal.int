@@ -2,7 +2,7 @@ body{
   margin: 0;
   background: #ebf7f8;
   font-family: IRANYekanX;
-
+  overflow-x: hidden;
   }
   .app{
     display: flex;
@@ -50,7 +50,11 @@ body{
 }
 .fa-solid{
   padding: 0px 20px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ebf7f8;
 }
+
 
 
 
