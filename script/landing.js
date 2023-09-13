@@ -47,15 +47,3 @@ function closeSnappPopupButton(){
   popup.style.display = 'none';
 };
 
-
-// if(window.navigator.userAgent.includes("Android")){
-//   alert("android")
-// } else if(window.navigator.userAgent.includes("Windows")){
-//   alert("windows")
-// } else if(window.navigator.userAgent.includes("Ios")){
-//   alert("ios")
-// } else if(window.navigator.userAgent.includes("Mac")){
-//   alert("mac")
-// } else if(window.navigator.userAgent.includes("Linux")){
-//   alert("linux")
-// }
