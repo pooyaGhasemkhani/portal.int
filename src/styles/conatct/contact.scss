@@ -1,0 +1,143 @@
+.items {
+  padding: 10px 0px;
+  padding-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #ebf7f8;
+
+    .filter {
+      align-self: center;
+      font-family: IRANYekanX;
+      background-color: white;
+      border-radius: 10px;
+      border: 0;
+      box-sizing: border-box;
+      color: black;
+      font-size: 15px;
+      font-weight: normal;
+      height: 40px;
+      width: 40%;
+      outline: 0;
+      padding: 4px 20px;
+      text-align: right;
+      border: 1px solid gray;
+      min-width: 350px;
+      margin: 10px 0px;
+      margin-top: 80px;
+    }
+  }
+
+  .card {
+    border-radius: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width: 400px;
+    direction: ltr;
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .contact_image {
+        display: flex;
+        position: relative;
+
+        .image {
+          display: block;
+          height: auto;
+          width: 120px;
+          border-radius: 50%;
+          margin: 10px 3px;
+          z-index: 0;
+        }
+      }
+      .contact_content {
+        text-align: end;
+        margin: 10px 20px;
+
+        .position {
+          color: #6c757d;
+          font-size: 12px;
+        }
+        .name {
+          color: #19becc;
+          font-weight: bold;
+          margin: 0px;
+        }
+        .number {
+          color: #6c757d;
+          align-self: flex-start;
+          font-size: 12px;
+          font-weight: bold;
+          height: 8px;
+
+          .fa-phone-volume {
+            color: #19becc;
+            display: contents;
+          }
+        }
+        .email {
+          color: #6c757d;
+          text-decoration: none;
+          font-size: 12px;
+          font-weight: bold;
+
+          .fa-envelope {
+            color: #19becc;
+          }
+        }
+      }
+    }
+  }
+
+  .search-result {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width: 400px;
+    height: 150px;
+
+    .search-result-content {
+      display: flex;
+      align-items: center;
+      font-family: IRANYekanX;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .image {
+    width: 80px;
+    margin: 0px 3px;
+  }
+  .card {
+    width: 340px;
+  }
+  .email {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  .search-result {
+    display: flex;
+    width: 330px;
+  }
+}

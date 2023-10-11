@@ -1,0 +1,11 @@
+.footer {
+  background-color: #303846;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  &-title {
+    cursor: default;
+    color: white;
+  }
+}

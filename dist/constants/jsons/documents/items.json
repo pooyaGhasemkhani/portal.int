@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "document",
+        "function" : "openCity('London')"
+    },
+    {
+        "name" : "document",
+        "function" : "openCity('Paris')"
+    },
+    {
+        "name" : "document",
+        "function" : "openCity('Tokyo')"
+    },
+    {
+        "name" : "document",
+        "function" : "openCity('tehran')"
+    },
+    {
+        "name" : "document",
+        "function" : "openCity('qazvin')"
+    },
+    {
+        "name" : "document",
+        "function" : "openCity('shahriyar')"
+    }
+]

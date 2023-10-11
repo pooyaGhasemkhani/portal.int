@@ -1,0 +1,37 @@
+@use "sass:meta";
+
+@mixin syntax-colors($args...) {
+  @debug meta.keywords($args);
+
+  @each $name, $padding in meta.keywords($args) {
+    .v-btn.v-size--#{$name}{
+        .v-btn--content{
+            padding: $padding;
+        }
+    }
+  }
+}
+
+@include syntax-colors(
+  $default: 10px,
+  $small: 20px,
+  $large: 30px,
+);
+
+.v-btn{
+    &.v-size--default{
+        .v-btn--content{
+            padding: 10px;
+        }
+    }
+    &.v-size--small{
+        .v-btn--content{
+            padding: 20px;
+        }
+    }
+    &.v-size--large{
+        .v-btn--content{
+            padding: 10px;
+        }
+    }
+}

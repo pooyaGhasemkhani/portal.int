@@ -1,0 +1,68 @@
+[
+    {
+    "image": "../../assets/images/landing/handbook.png",
+    "link": "https://handbook.hyperyek.com",
+    "name": "هندبوک شرکت",
+    "icons": "‌"
+    },
+    {
+        "image": "../../assets/images/landing/gitlab.png",
+        "link": "https://gitlab.samimgroup.com/",
+        "name": "مدیریت وظایف",
+        "icons": "‌<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/task-management' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a>"
+    },
+    {
+        "image": "../../assets/images/landing/internet-access.png",
+        "link": "https://KerioControl.int:4081",
+        "name": "دسترسی به اینترنت",
+        "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/internet-access' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a> <a target='_blank' href='http://download.kerio.com/archive' class='fa-solid fa-download'><span class='tooltiptext'>دانلود اپلیکیشن</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/contact.png",
+      "link": "/contact",
+      "name": "دفترچه تلفن",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/voip' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/element.png",
+      "link": "https://chat.samimgroup.com/#/welcome",
+      "name": "پیام‌رسان فوری",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/messenger' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a> <a target='_blank' href='https://element.io/download' class='fa-solid fa-download'><span class='tooltiptext'>دانلود اپلیکیشن</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/nextcloud.png",
+      "link": "https://cloud.samimgroup.com/login",
+      "name": "اشتراک‌گذاری فایل",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/file-sharing' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a> <a target='_blank' href='https://nextcloud.com/install/#install-clients' class='fa-solid fa-download'><span class='tooltiptext'>دانلود اپلیکیشن</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/jitsi.png",
+      "link": "https://jitsi.samimgroup.com/",
+      "name": "جلسه آنلاین",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/online-meeting' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a> <a target='_blank' href='https://desktop.jitsi.org/Main/Download.html' class='fa-solid fa-download'><span class='tooltiptext'>دانلود اپلیکیشن</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/webcart.png",
+      "link": "http://hozour.int/webkart/",
+      "name": "حضور و غیاب",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/rollcall' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/odoo.png",
+      "link": "https://erp.samimgroup.com/",
+      "name": "حقوق و دستمزد",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/salary' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a>"
+    },
+    {
+      "image": "../../assets/images/landing/kerioconnect.png",
+      "link": "https://mail.hyperyek.com/",
+      "name": "ایمیل سازمانی",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/email' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a> "
+    },
+    {
+      "image": "../../assets/images/landing/snapp-food.png",
+      "link": "https://snappfood.biz/",
+      "name": "سفارش ناهار",
+      "icons": "<a target='_blank' href='https://handbook.hyperyek.com/docs/handbook/tools_and_methods/lunch-order-guide' class='fa-solid fa-circle-info'><span class='tooltiptext'>راهنمای استفاده از ابزار</span></a>"
+    }
+]

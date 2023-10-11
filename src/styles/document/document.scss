@@ -1,0 +1,99 @@
+$transition: 250ms ease all;
+
+.documents {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    padding-top: 60px;
+
+    .navbar {
+      $ref: &;
+      height: calc(100vh - 184px);
+      max-height: calc(100vh - 184px);
+      overflow-x: scroll;
+      scrollbar-color: rgba(255, 0, 0, 0) rgba(255, 0, 0, 0);
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem 0;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+      &__menu {
+        padding: 0px 32px;
+      }
+      &__link {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1rem * 3.5;
+        width: 1rem * 5.5;
+        color: #6a778e;
+        transition: $transition;
+        span {
+          position: absolute;
+          right: 100%;
+          transform: translate(-(1rem * 3));
+          margin-left: 1rem;
+          opacity: 0;
+          pointer-events: none;
+          color: #406ff3;
+          background: #fff;
+          padding: 1rem * 0.75;
+          transition: $transition;
+          border-radius: 10px * 1.75;
+          width: 100px;
+        }
+        &:hover {
+          color: #2e2e2e;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 100px 50px;
+    overflow-x: scroll;
+    scrollbar-color: rgba(255, 0, 0, 0) rgba(255, 0, 0, 0);
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    &-content {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      gap: 100px;
+      max-height: calc(100vh - 292px);
+
+      .document_card {
+        background-color: #19becc;
+        border-radius: 20px;
+        cursor: pointer;
+
+        &_image {
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+        }
+        &_name {
+          text-align: center;
+          line-height: 5px;
+          color: black;
+        }
+      }
+    }
+  }
+}

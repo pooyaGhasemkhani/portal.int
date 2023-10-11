@@ -1,0 +1,84 @@
+.landing {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 50px;
+  width: auto;
+  direction: rtl;
+  align-self: center;
+  padding-top: 100px;
+
+  @media only screen and (max-width: 1500px) {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  @media only screen and (max-width: 750px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media only screen and (max-width: 480px) {
+    grid-template-columns: auto;
+  }
+
+  &_card {
+    background-color: #19becc;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &_image {
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+    }
+    &_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+
+      .fon-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fa-solid {
+          padding: 0px 20px;
+          font-size: 22px;
+          text-decoration: none;
+          color: #ebf7f8;
+          position: relative;
+          display: inline-block;
+
+          .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 5px;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -60px;
+            position: absolute;
+            z-index: 1;
+            font-size: 13px;
+            font-weight: normal;
+            font-family: IRANYekanX;
+          }
+
+          &:hover .tooltiptext {
+            visibility: visible;
+          }
+        }
+      }
+    }
+    &_name {
+      text-align: center;
+      line-height: 5px;
+    }
+  }
+}
